@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    color: white;
+    background-color: lightgray;
+}
+
+input{
+    background: none;
+    border: 0;
+    border-bottom: 1px solid white;
+    margin-bottom: 10px;
+}
+.container{
+    background-color: darkslategray;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px grey;
+}
+
+input:focus{
+    outline: 0;
+}
+
+input::placeholder{
+    color: white;
+}
+
+
+.temp{
+    color: white;
+    margin: 10px;
+    font-size: 30px;
+
+}
+#btn{
+    cursor: pointer;
+}
+
+.desp{
+    margin: 10px;
+}
+
+.city{
+    margin: 10px;
+    font-size: 25px;
+}
